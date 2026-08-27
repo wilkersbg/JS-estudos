@@ -1,0 +1,28 @@
+<html>
+    <head>
+        <title>Módulo em Navegadores</title>
+        <script src="./capitulo03/demo02-modulo-browser/matematica.js" type="module"></script>
+       <script src="./capitulo03/demo02-modulo-browser/main.js"></script>
+    </head>
+    <body> 
+        <form>
+            <label for="tipoOperacao">Tipo de Operação</label>
+            <select name="tipoOperacao" id="tipoOperacao">
+                    <option value="dividir">Dividir</option>
+                    <option value="subtrair">Subtrair</option>
+                </select>
+                <br />
+                <label for="valor1">Valor 1</label>
+                <input type="number" name="valor1" id="valor1" />
+                <br /> 
+                <label for="valor2">Valor 2</label>
+                <input type="number" name="valor2" id="valor2" />
+                <br />
+                <br />
+                <input type="submit" value="Calcular" id="btnCalcular"/>
+                <input type="reset" value="Limpar" id="btnLimpar"/>
+                <br />
+                <output id="resultado">Aqui vai o resultado!!</output>
+            </form>
+        </body>
+</html>
